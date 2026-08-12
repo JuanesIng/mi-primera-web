@@ -1,94 +1,248 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio - Juanes</title>
-  <link rel="stylesheet" href="styles/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portafolio - Juanes</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    >
 </head>
+
 <body>
-  <!-- Header -->
-  <header class="header">
-    <h1 class="title">Mi Portafolio</h1>
-  </header>
 
-  <!-- Perfil -->
-  <section class="profile">
-    <div class="profile-text">
-      <h2 class="name">Hola, soy Juanes</h2>
-      <p class="role">Full Stack Web Developer In Process</p>
-      <p class="experience">+3 Años de estudio en desarrollo de software</p>
-      <p class="description">Estudiante de ingeniería de sistemas de la universidad Santo Tomás de septimo semestre. 
-        Apasionado por crear aplicaciones web modernas, seguras y escalables.</p>
-      <button class="btn-contact">📧 Contáctame</button>
-    </div>
-    <div class="profile-img">
-      <img src="images/perfil1.jpg" alt="Foto de perfil">
-    </div>
-  </section>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="title">Mi Portafolio</h1>
+    </header>
 
-  <!-- Habilidades -->
-  <section class="skills">
-    <h3 class="skills-title">Habilidades</h3>
-    <div class="skill-card">
-      <h4 class="skill-category">Lenguajes & Tecnologías</h4>
-      <div class="skill-bar">
-        <span class="skill-name">JavaScript</span>
-        <div class="bar"><div class="progress" data-skill="85"></div></div>
-      </div>
-      <div class="skill-bar">
-        <span class="skill-name">Python</span>
-        <div class="bar"><div class="progress" data-skill="75"></div></div>
-      </div>
-      <div class="skill-bar">
-        <span class="skill-name">React</span>
-        <div class="bar"><div class="progress" data-skill="80"></div></div>
-      </div>
-      <div class="skill-bar">
-        <span class="skill-name">Node.js</span>
-        <div class="bar"><div class="progress" data-skill="70"></div></div>
-      </div>
-    </div>
-  </section>
+    <main>
 
-  <!-- Proyectos -->
-  <section class="projects">
-    <h3 class="projects-title">Proyectos</h3>
-    <div class="projects-grid">
-      <div class="project-card">
-        <img src="images/Judge.png" alt="Proyecto 1">
-        <h4>Proyecto 1</h4>
-        <p>Aplicación web para responder ejercicios de programación.</p>
-        <a href="https://github.com/JuanesIng/juezVirtual" class="btn-project">Ver Proyecto</a>
-      </div>
+        <!-- Perfil -->
+        <section class="profile">
+            <div class="profile-text">
+                <h2 class="name">Hola, soy Juanes</h2>
 
-      <div class="project-card">
-        <img src="images/galery.png" alt="Proyecto 2">
-        <h4>Proyecto 2</h4>
-        <p>Sitio web responsivo para una galería.</p>
-        <a href="https://github.com/JuanesIng/galeria" class="btn-project">Ver Proyecto</a>
-      </div>
+                <p class="role">
+                    Full Stack Web Developer in Process
+                </p>
 
-      <div class="project-card">
-        <img src="images/Diagram.png" alt="Proyecto 3">
-        <h4>Proyecto 3</h4>
-        <p>Aplicación web de diagramas para empresa de seguridad digital.</p>
-        <a href="https://github.com/KendoTMJJ/Hackathon_MBD_Front" class="btn-project">Ver Proyecto</a>
-      </div>
-    </div>
-  </section>
+                <p class="experience">
+                    +3 años de estudio en desarrollo de software
+                </p>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>© 2025 Juanes - Todos los derechos reservados</p>
-    <bold>jaunesing222@gmail.com</bold>
-    <div class="social-icons">
-      <a href="https://github.com/JuanesIng" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/juan-tovar-arias-079417348/" target="_blank"><i class="fab fa-linkedin"></i></a>
-    </div>
-  </footer>
+                <p class="description">
+                    Estudiante de Ingeniería de Sistemas de la Universidad
+                    Santo Tomás, actualmente en séptimo semestre.
+                    Apasionado por crear aplicaciones web modernas,
+                    seguras y escalables.
+                </p>
 
-  <script src="scripts/script.js"></script>
+                <a href="mailto:jaunesing222@gmail.com" class="btn-contact">
+                    <i class="fas fa-envelope"></i>
+                    Contáctame
+                </a>
+            </div>
+
+            <div class="profile-img">
+                <img src="images/perfil1.jpg" alt="Foto de perfil de Juanes">
+            </div>
+        </section>
+
+
+        <!-- Habilidades -->
+        <section class="skills">
+            <h3 class="skills-title">Habilidades</h3>
+
+            <div class="skill-card">
+
+                <h4 class="skill-category">
+                    Lenguajes y Tecnologías
+                </h4>
+
+                <div class="skill-bar">
+                    <div class="skill-header">
+                        <span class="skill-name">JavaScript</span>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="bar">
+                        <div class="progress" data-skill="85"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill-header">
+                        <span class="skill-name">Python</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="bar">
+                        <div class="progress" data-skill="75"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill-header">
+                        <span class="skill-name">React</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="bar">
+                        <div class="progress" data-skill="80"></div>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill-header">
+                        <span class="skill-name">Node.js</span>
+                        <span>70%</span>
+                    </div>
+
+                    <div class="bar">
+                        <div class="progress" data-skill="70"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Proyectos -->
+        <section class="projects">
+            <h3 class="projects-title">Proyectos</h3>
+
+            <div class="projects-grid">
+
+                <!-- Proyecto 1 -->
+                <article class="project-card">
+                    <img
+                        src="images/Judge.png"
+                        alt="Captura del proyecto Juez Virtual"
+                    >
+
+                    <div class="project-content">
+                        <h4>Juez Virtual</h4>
+
+                        <p>
+                            Aplicación web para resolver ejercicios
+                            de programación.
+                        </p>
+
+                        <a
+                            href="https://github.com/JuanesIng/juezVirtual"
+                            class="btn-project"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Ver Proyecto
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </article>
+
+
+                <!-- Proyecto 2 -->
+                <article class="project-card">
+                    <img
+                        src="images/galery.png"
+                        alt="Captura del proyecto Galería"
+                    >
+
+                    <div class="project-content">
+                        <h4>Galería</h4>
+
+                        <p>
+                            Sitio web responsivo para una galería.
+                        </p>
+
+                        <a
+                            href="https://github.com/JuanesIng/galeria"
+                            class="btn-project"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Ver Proyecto
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </article>
+
+
+                <!-- Proyecto 3 -->
+                <article class="project-card">
+                    <img
+                        src="images/Diagram.png"
+                        alt="Captura del proyecto de diagramas"
+                    >
+
+                    <div class="project-content">
+                        <h4>Aplicación de Diagramas</h4>
+
+                        <p>
+                            Aplicación web de diagramas para una empresa
+                            de seguridad digital.
+                        </p>
+
+                        <a
+                            href="https://github.com/KendoTMJJ/Hackathon_MBD_Front"
+                            class="btn-project"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Ver Proyecto
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            © 2026 Juanes - Todos los derechos reservados
+        </p>
+
+        <p>
+            <strong>jaunesing222@gmail.com</strong>
+        </p>
+
+        <div class="social-icons">
+
+            <a
+                href="https://github.com/JuanesIng"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+            >
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/juan-tovar-arias-079417348/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+            >
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+        </div>
+    </footer>
+
+
+    <script src="scripts/script.js"></script>
+
 </body>
 </html>
