@@ -1,40 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>CLOUD PRIMERA PÁGINA</title>
-
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Juanes</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
+  <!-- Header -->
+  <header class="header">
+    <h1 class="title">Mi Portafolio</h1>
+  </header>
 
-    <header>
-        <h1>CLOUD PRIMERA PÁGINA</h1>
-    </header>
+  <!-- Perfil -->
+  <section class="profile">
+    <div class="profile-text">
+      <h2 class="name">Hola, soy Juanes</h2>
+      <p class="role">Full Stack Web Developer In Process</p>
+      <p class="experience">+3 Años de estudio en desarrollo de software</p>
+      <p class="description">Estudiante de ingeniería de sistemas de la universidad Santo Tomás de septimo semestre. 
+        Apasionado por crear aplicaciones web modernas, seguras y escalables.</p>
+      <button class="btn-contact">📧 Contáctame</button>
+    </div>
+    <div class="profile-img">
+      <img src="images/perfil1.jpg" alt="Foto de perfil">
+    </div>
+  </section>
 
+  <!-- Habilidades -->
+  <section class="skills">
+    <h3 class="skills-title">Habilidades</h3>
+    <div class="skill-card">
+      <h4 class="skill-category">Lenguajes & Tecnologías</h4>
+      <div class="skill-bar">
+        <span class="skill-name">JavaScript</span>
+        <div class="bar"><div class="progress" data-skill="85"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">Python</span>
+        <div class="bar"><div class="progress" data-skill="75"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">React</span>
+        <div class="bar"><div class="progress" data-skill="80"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span class="skill-name">Node.js</span>
+        <div class="bar"><div class="progress" data-skill="70"></div></div>
+      </div>
+    </div>
+  </section>
 
-    <main>
-        <section id="sobre-mi">
-            <h2>Hola, soy Juanes</h2>
+  <!-- Proyectos -->
+  <section class="projects">
+    <h3 class="projects-title">Proyectos</h3>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="images/Judge.png" alt="Proyecto 1">
+        <h4>Proyecto 1</h4>
+        <p>Aplicación web para responder ejercicios de programación.</p>
+        <a href="https://github.com/JuanesIng/juezVirtual" class="btn-project">Ver Proyecto</a>
+      </div>
 
-            <p>
-                Soy estudiante de Ingeniería de Sistemas y actualmente
-                estoy aprendiendo sobre desarrollo web, computación en la
-                nube y tecnologías de software.
-            </p>
+      <div class="project-card">
+        <img src="images/galery.png" alt="Proyecto 2">
+        <h4>Proyecto 2</h4>
+        <p>Sitio web responsivo para una galería.</p>
+        <a href="https://github.com/JuanesIng/galeria" class="btn-project">Ver Proyecto</a>
+      </div>
 
-        </section>
-    </main>
+      <div class="project-card">
+        <img src="images/Diagram.png" alt="Proyecto 3">
+        <h4>Proyecto 3</h4>
+        <p>Aplicación web de diagramas para empresa de seguridad digital.</p>
+        <a href="https://github.com/KendoTMJJ/Hackathon_MBD_Front" class="btn-project">Ver Proyecto</a>
+      </div>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Juanes - Todos los derechos reservados</p>
+    <bold>jaunesing222@gmail.com</bold>
+    <div class="social-icons">
+      <a href="https://github.com/JuanesIng" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/juan-tovar-arias-079417348/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
 
-    <footer>
-        <p>
-            &copy; 2026 Juanes
-        </p>
-    </footer>
-
+  <script src="scripts/script.js"></script>
 </body>
 </html>
