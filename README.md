@@ -116,11 +116,7 @@ La página contiene enlaces a:
 
 ![Página principal](images/evidencia-home.png)
 
-### 2. Sección de habilidades
-
-![Habilidades](images/evidencia-habilidades.png)
-
-### 3. Sección de proyectos
+### 2. Sección de proyectos
 
 ![Proyectos](images/evidencia-proyectos.png)
 
@@ -132,7 +128,7 @@ La página contiene enlaces a:
 
 ![Página desplegada](images/evidencia-deploy.png)
 
-> **Nota:** Las imágenes anteriores deben ser reemplazadas por capturas reales del proyecto y guardadas dentro de la carpeta `images/`.
+`images/`.
 
 ---
 
@@ -141,12 +137,12 @@ La página contiene enlaces a:
 ### 📁 Repositorio de GitHub
 
 **Repositorio:**
-https://github.com/JuanesIng/hoja-de-vida-web
+https://github.com/JuanesIng/mi-primera-web
 
 ### 💼 LinkedIn
 
 **Perfil:**
-https://www.linkedin.com/in/juan-tovar-arias-079417348/
+https://www.linkedin.com/in/juan-tovara-data/
 
 ### 🐙 GitHub
 
@@ -156,9 +152,7 @@ https://github.com/JuanesIng
 ### 🌎 Página web publicada
 
 **URL:**
-https://tu-proyecto.vercel.app
-
-> Reemplazar esta URL por la URL real proporcionada por Vercel, Firebase u otro servicio de despliegue.
+https://mi-primera-lsysrc22o-juanes-projects-f20de9ec.vercel.app/proyectos.html
 
 ---
 
@@ -171,32 +165,6 @@ El proyecto puede ser desplegado utilizando servicios como:
 - GitHub Pages
 
 Una vez realizado el despliegue, la URL pública debe agregarse en la sección **"Enlaces"** de este README.
-
----
-
-## 📖 Cómo ejecutar el proyecto localmente
-
-### 1. Clonar el repositorio
-
-```bash
-git clone https://github.com/JuanesIng/hoja-de-vida-web.git
-```
-
-### 2. Entrar al proyecto
-
-```bash
-cd hoja-de-vida-web
-```
-
-### 3. Abrir el proyecto
-
-Abrir el archivo:
-
-```text
-index.html
-```
-
-También se puede utilizar **Visual Studio Code** junto con la extensión **Live Server** para ejecutar la página localmente.
 
 ---
 
